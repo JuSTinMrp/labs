@@ -4,18 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Control</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-    <form method="post" action="start_instance.php">
-        <input type="submit" value="Start Instance">
-    </form>
 
-    <form method="post" action="stop_instance.php">
-        <input type="submit" value="Stop Instance">
-    </form>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            Lab Control
+        </div>
+        <div class="card-body">
+            <form method="post" action="start_instance.php">
+                <button type="submit" class="btn btn-success btn-block">Start Instance</button>
+            </form>
 
-    <form method="post" action="ssh_connection.php">
-        <input type="submit" value="SSH Connection">
-    </form>
+            <form method="post" action="stop_instance.php">
+                <button type="submit" class="btn btn-danger btn-block mt-3">Stop Instance</button>
+            </form>
+
+            <form method="post" action="ssh_connection.php">
+                <button type="submit" class="btn btn-primary btn-block mt-3">SSH Connection</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies (optional) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
+
+
