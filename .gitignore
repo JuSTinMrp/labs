@@ -1,2 +1,5 @@
 #ignoring test files - local testing environment
 test*
+
+#ignoring folder 
+.vagrant/
