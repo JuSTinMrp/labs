@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Control</title>
 </head>
 <body>
-    <button id="deployBtn">Deploy Instance</button>
-    <button id="stopBtn">Stop Instance</button>
-    <div id="timer">Deployment Time: 0 minutes</div>
-    <script src="script.js"></script>
+    <form method="post" action="start_instance.php">
+        <input type="submit" value="Start Instance">
+    </form>
+
+    <form method="post" action="stop_instance.php">
+        <input type="submit" value="Stop Instance">
+    </form>
+
+    <form method="post" action="ssh_connection.php">
+        <input type="submit" value="SSH Connection">
+    </form>
 </body>
 </html>
