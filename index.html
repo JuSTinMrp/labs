@@ -4,39 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Control</title>
-    <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="container mt-5">
-    <div class="card" style="width:300px">
-        <div class="card-header" align="center">
-            Basic Lab
-        </div>
-        <img class="card-img-top" src="assets/lab1_banner.jpg" alt="Card image">
-        <div class="card-body">
-            <form method="post" action="start_instance.php">
-                <button type="submit" class="btn btn-success btn-block">Start Instance</button>
-            </form>
+<div class="background-container">
+    <div class="container mt-5">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header" align="center">
+                <b>Basic Lab</b>
+            </div>
+            <img class="card-img-top" src="assets/lab1_banner.jpg" alt="Card image">
+            <div class="card-body">
+                <form method="post" action="start_instance.php">
+                    <button type="submit" class="btn btn-success btn-block">Start Instance</button>
+                </form>
 
-            <form method="post" action="stop_instance.php">
-                <button type="submit" class="btn btn-danger btn-block mt-3">Stop Instance</button>
-            </form>
+                <form method="post" action="stop_instance.php">
+                    <button type="submit" class="btn btn-danger btn-block mt-3">Stop Instance</button>
+                </form>
 
-            <form method="post" action="ssh_connection.php">
-                <button type="submit" class="btn btn-primary btn-block mt-3">SSH Connection</button>
-            </form>
+                <form method="post" action="ssh_connection.php">
+                    <button type="submit" class="btn btn-primary btn-block mt-3">SSH Connection</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- Bootstrap JS and dependencies (optional) -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- my js -->
+<script src="script.js"></script>
 
 </body>
 </html>
-
-

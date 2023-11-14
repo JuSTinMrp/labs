@@ -22,3 +22,14 @@
 //         timerDisplay.textContent = `Deployment Time: ${deploymentTime} minutes`;
 //     });
 // });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const backgroundImage = document.querySelector('.background-image');
+
+    document.addEventListener('mousemove', function (e) {
+        const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+        const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+        backgroundImage.style.transform = `translate(${xAxis}px, ${yAxis}px)`;
+    });
+});
