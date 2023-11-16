@@ -1,5 +1,12 @@
-.background-container {
-    position: fixed;
-    background-image: url('assets/lab_bg.jpg');
-    
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://raw.githubusercontent.com/JuSTinMrp/labs/main/assets/lab_bg.jpg?token=GHSAT0AAAAAACGPYFQN5MAKLASXE6IRL7EYZKWAXKQ') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-size: contain; 
+    }
 }

@@ -3,3 +3,7 @@ need to do:
     - [] Click to view detailed one
     - [] Bg moving acc to cursor
     - [] vagrant box - build
+
+
+labs_bg image url:
+https://raw.githubusercontent.com/JuSTinMrp/labs/main/assets/lab_bg.jpg?token=GHSAT0AAAAAACGPYFQN5MAKLASXE6IRL7EYZKWAXKQ

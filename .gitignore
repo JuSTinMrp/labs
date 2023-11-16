@@ -3,3 +3,4 @@ test*
 
 #ignoring folder 
 .vagrant/
+.jython_cache/
