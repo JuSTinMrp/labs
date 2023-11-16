@@ -1,12 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('https://raw.githubusercontent.com/JuSTinMrp/labs/main/assets/lab_bg.jpg?token=GHSAT0AAAAAACGPYFQN5MAKLASXE6IRL7EYZKWAXKQ') no-repeat center center fixed;
-    background-size: cover;
-}
+    background-color: #000 !important; 
+    overflow: hidden; }
 
-@media (max-width: 767px) {
-    body {
-        background-size: contain; 
-    }
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('assets/lab_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.3;
 }
