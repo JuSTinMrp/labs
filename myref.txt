@@ -1,7 +1,7 @@
 need to do:
     - [] Card
     - [] Click to view detailed one
-    - [] Bg moving acc to cursor
+    - [x] Bg moving acc to cursor
     - [] vagrant box - build
     - [] loading screen effect
 

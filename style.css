@@ -18,6 +18,24 @@ body {
     pointer-events: none; 
 }
 
+.card1:hover {
+    box-shadow: 0 0 50px rgba(0, 211, 211, 0.7); 
+    transition: box-shadow 0.4s ease-in-out; 
+}
+.card2:hover {
+    box-shadow: 0 0 50px rgba(211, 179, 0, 0.7); 
+    transition: box-shadow 0.4s ease-in-out; 
+}
+.card3:hover {
+    box-shadow: 0 0 50px rgba(211, 0, 0, 0.7); 
+    transition: box-shadow 0.4s ease-in-out; 
+}
+
+.card1,
+.card2,
+.card3 {
+    background-color: rgba(255, 255, 255, 0.25);
+}
 .mouse_move {
     position: relative;
     width: 100%;
@@ -32,6 +50,7 @@ body {
     position: absolute;
     height: 80px;
     width: 80px;
+    /* filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.7)); */
 }
 
 
@@ -89,3 +108,4 @@ body {
 /* #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #img10 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
 } */
+
