@@ -44,15 +44,22 @@ body {
 
 .card1:hover .card-header b {
     color: rgb(21, 255, 0); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 .card2:hover .card-header b {
     color: rgb(255, 217, 0); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 .card3:hover .card-header b {
     color: rgb(211, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 .card-header b {
     color: #000000; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    /* transition: color 0.3s ease-in-out; */
 }
 
 
@@ -154,6 +161,3 @@ body {
     right: 30%;
 }
 
-/* image shadow -- leads to box shadow */
-/* #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #img10 {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
