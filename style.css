@@ -18,21 +18,52 @@ body {
     pointer-events: none; 
 }
 
+
+.card1 .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card2 .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card3 .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 .card1,
 .card2,
 .card3 {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(160, 160, 160, 0.4);
     border-radius: 15px; 
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
 }
+
+.card1:hover .card-header b {
+    color: rgb(21, 255, 0); 
+}
+.card2:hover .card-header b {
+    color: rgb(255, 217, 0); 
+}
+.card3:hover .card-header b {
+    color: rgb(211, 0, 0);
+}
+.card-header b {
+    color: #000000; 
+}
+
 
 .card1 {
     transition: box-shadow 0.4s ease-in-out; 
 }
 
 .card1:hover {
-    box-shadow: 0 0 40px rgb(0, 255, 255); 
-    transition: box-shadow 0.4s ease-in-out;
-    border: 2px solid rgba(0, 211, 211, 0.7); 
+    box-shadow: 0 0 40px rgb(21, 255, 0); 
+    transition: box-shadow 0.2s ease-in-out;
+    border: 0.3px solid rgba(21, 255, 0); 
 }
 
 .card2 {
@@ -41,7 +72,8 @@ body {
 
 .card2:hover {
     box-shadow: 0 0 40px rgb(255, 217, 0); 
-    transition: box-shadow 0.4s ease-in-out; 
+    transition: box-shadow 0.2s ease-in-out; 
+    border: 0.3px solid rgb(255, 217, 0); 
 }
 
 .card3 {
@@ -50,7 +82,8 @@ body {
 
 .card3:hover {
     box-shadow: 0 0 40px rgb(211, 0, 0); 
-    transition: box-shadow 0.4s ease-in-out; 
+    transition: box-shadow 0.2s ease-in-out; 
+    border: 0.3px solid rgb(211, 0, 0); 
 }
 
 .mouse_move {
@@ -124,5 +157,3 @@ body {
 /* image shadow -- leads to box shadow */
 /* #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #img10 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
-} */
-
